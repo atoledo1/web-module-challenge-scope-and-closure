@@ -44,6 +44,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+Closure is what lets us put functions together. It gives us the possibility of accesing functions from parent to child, including in situations where the parent function was terminated.  
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -65,8 +68,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+-Closure is being used in the personalDice function. The way you can know this is that newRoll is inside of it. 
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+-What is always the same is that you are always going to get Dan ; what changes is the number you can get. 
+
 c. What is the lexical scope of `newRoll`? 
+
+-The lexical scope of newRoll is the local scope of personalDice. 
 
 ### Task 3 - Stretch Goals
 
